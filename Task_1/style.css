@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+#traffic_box{
+    width: 100px;
+    height: 300px;
+    border: 2px solid white;
+    margin: 150px auto;
+}
+#green,#yellow,#red{
+    padding: 45px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin: 5px;
+}
+.switch{
+    padding: 10px;
+}
+.switch .run-btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 300ms linear;
+}
+.switch .run-btn:hover{
+    background-color: aquamarine;
+    outline: none;
+}
+.switch .run-btn:active,.switch .run-btn:focus{
+    outline: none;
+}
